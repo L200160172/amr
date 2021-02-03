@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #505962;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .1rem;
+}
+
+.navbar-dark .navbar-nav .navlink.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.home-inner {
+    height: 100vh;
+    background-image: url(../img/thumb-1920-699783.jpg);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-radius: 0;
+    border-width: medium;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+/*Course Section*/
+
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+
+.btn-secondary:hover {
+    background-color: #189582;
+    border-color: #189582;
+}
+
+/*Features Section*/
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
+.feature h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.feature p{
+    font-size: 1.1rem;
+}
+
+/*Resource Section*/
+
+.fixed-background{
+    background: url(../img/thumb-1920-699783.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fixed-background-2{
+    background: url(../img/910288.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.dark{
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    padding: 3rem 0;
+}

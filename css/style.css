@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    padding: 12px 50px 12px 20px;
+}
+
+.navbar-brand {
+    margin-left: 10vw;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 91vh;
+    width: 100%;
+    background-color: black;
+}
+
+.carousel-item {
+    height: 91vh;
+}
+
+.carousel-inner img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.hero-container {
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    padding: 50px;
+}
+
+.hero-item {
+    color: white;
+}
+
+.hero-item h1,
+h4 {
+    font-weight: bold;
+}
+
+.hero-item p {
+    margin-top: 24px;
+}
+
+/*.section-1,
+.section-2,
+.section-3 {
+    padding: 200px;
+}*/
+
+.section-1 {
+    padding: 150px 5vw 150px 10vw;
+}
+
+.container-img {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 h1 {
+    margin-bottom: 20px;
+}
+
+.container-img img {
+    height: 350px;
+    width: 500x;
+    object-fit: cover;
+}
+
+.section-2 {
+    background-color: black;
+    padding: 150px 10vw 150px 10vw;
+}
+
+.section-2 {
+    background-image: url("../img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+}
+
+.section-2 h1,
+li {
+    color: white;
+}
+
+.text-p {
+    color: white;
+}
+
+.section-2 .card-deck {
+    padding: 0 5% 0 5%;
+    margin-top: 50px;
+}
+
+.section-2 .card-deck i {
+    font-size: 4em;
+    margin: 25px;
+}
+
+.section-3 {
+    padding: 150px 10vw 150px 10vw;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 50vw;
+}
+
+.section-3,
+.section-4 {
+    text-align: center;
+}
+
+.section-4 {
+    padding: 100px 20px 20px 10px;
+}
+
+.row h1 {
+    font-weight: bold;
+}
+
+.container-map {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #2f318b;
+    color: white;
+    margin-top: 24px;
+    padding: 100px;
+}
+
+footer h2 {
+    font-weight: bold;
+}
+
+.section-2 p {
+    text-align: center;
+}
+
